@@ -25,6 +25,8 @@ namespace ME01.model
             Preco = preco;
         }
 
+        public Instrumento() {}
+
         public void Tocar()
         {
             Console.WriteLine($"O instrumento {Nome} está sendo tocado.");
