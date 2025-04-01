@@ -13,9 +13,9 @@ namespace ME01.model
         public DateTime Data { get; set; }
         public TimeSpan Hora { get; set; }
         public string Descricao { get; set; }
-        public LocalDeApresentacao Local { get; set; }
+        public LocalApresentacao Local { get; set; }
 
-        public Evento(string nome, string tipo, DateTime data, TimeSpan hora, string descricao, LocalDeApresentacao local)
+        public Evento(string nome, string tipo, DateTime data, TimeSpan hora, string descricao, LocalApresentacao local)
         {
             Nome = nome;
             Tipo = tipo;
